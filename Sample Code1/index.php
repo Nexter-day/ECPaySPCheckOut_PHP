@@ -66,7 +66,7 @@
 	}
 
 	// 送出訂單
-	function ajax_payment(payment_type = '', invoice_status = '1')
+	function ajax_payment(payment_type, invoice_status)
 	{
 
 		// 隱藏付款按鈕
